@@ -9,8 +9,7 @@ ENV/
 *.env
 
 # AWS Credentials
-.aws/
-credentials
+cloud-misconfig-scanner_accessKeys.csv
 
 # Logs
 *.log
