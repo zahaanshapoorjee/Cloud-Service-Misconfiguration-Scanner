@@ -1,3 +1,5 @@
+# Zahaan Shapoorjee 2025
+
 """
 Module: logger
 Description:
