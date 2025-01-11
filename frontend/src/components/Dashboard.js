@@ -681,13 +681,13 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard-container">
-      <h1 className="dashboard-title">Cloud Misconfiguration Scanner</h1>
       <div className="live-monitoring-section">
         <LiveMonitoring />
       </div>
+      <div style={{ textAlign: "center", backgroundColor:"#181818", borderRadius:"15px", paddingTop:"20px"}}>
       <h3 style={{ textAlign: "center" }}>Scan AWS Services</h3>
 
-      <CRow className="service-row" style={{ margin: "20px" }}>
+      <CRow className="service-row" style={{ margin: "20px", backgroundColor:"#181818", padding:'20px', backgroundColor:"#222", borderRadius:"15px" }}>
         {["EC2", "S3", "IAM", "RDS"].map((service) => (
           <CCard className="service-card full-width" key={service}>
             <CCardHeader className="service-header">
@@ -725,6 +725,7 @@ const Dashboard = () => {
           </CCard>
         ))}
       </CRow>
+      </div>
     </div>
   );
 };

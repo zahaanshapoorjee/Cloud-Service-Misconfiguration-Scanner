@@ -10,6 +10,7 @@ function App() {
       </CRow>
       <CRow>
         <CCol>
+        <h1 className="dashboard-title">Cloud Misconfiguration Scanner</h1>
           <Dashboard />
         </CCol>
       </CRow>

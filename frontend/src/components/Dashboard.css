@@ -3,11 +3,12 @@ body{
     font: Inter, sans-serif;
 }
 .dashboard-container {
-    padding: 20px;
+    padding: 8px;
     background-color: #181818;
     color: #fff;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 15px;
   }
 
   .dashboard-title {
@@ -38,6 +39,7 @@ body{
     align-items: center;
     background-color: #333;
     color: #fff;
+        /* background-color: #181818; */
   }
 
 .service-body {
@@ -64,7 +66,6 @@ body{
 }
 
 .live-monitoring-section {
-  margin-top: 20px;
   padding: 20px;
   border-radius: 15px;
   color: #d1d1d1;
