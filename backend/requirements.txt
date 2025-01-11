@@ -1,0 +1,11 @@
+boto3
+Flask
+Flask-RESTful
+pytest
+moto
+requests
+loguru
+plotly
+pandas
+reportlab
+flask-cors
