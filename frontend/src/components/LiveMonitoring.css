@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(180deg, #000428, #004E92); /* Hotstar-like dark background */
+  font-family: 'Poppins', sans-serif;
+}
+
+.live-monitoring {
+  padding: 20px;
+  background-color: #181818;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.live-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.scrollable-container {
+  max-height: 262px; /* Adjust height as needed */
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #004E92 #000428;
+  border-radius: 10px;
+  background-color: #222;
+  padding: 15px;
+}
+
+.scrollable-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background: #004E92;
+  border-radius: 4px;
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+  background: #000428;
+}
